@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript Activity</title>
+</head>
+<body>
+    
+    <h3>Name: Joan Perolino Madeja</h3><br>
+
+    <p> <strong>Instruction:</strong> Create a function named ([event] + "Handler") using pascal case naming convention<br>
+       that corresponds to each javascript event. (e.g. blurHandler()). The function should call the <br>
+       alert message dialog box to display that the javascript event is triggered.</p>
+
+    <h4>Blur</h4>
+    <input type="text" onblur="BlurHandler()">
+
+    <h4>Change</h4>
+    <input type="text" onchange="ChangeHandler()" placeholder="Enter an input" />
+
+    <h4>Click</h4>
+    <button onclick="ClickHandler()">Click Me</button>
+
+    <h4>Double Click</h4>
+    <button ondblclick="DoubleClickHandler()">Double Click Me</button>
+
+    <h4>Focus</h4>
+    <input type="text" onfocus="FocusHandler(this)">
+
+    <h4>Keydown</h4>
+    <input type="text" onkeydown="KeydownHandler()">
+
+    <h4>Keypress</h4>
+    <input type="text" onkeypress="KeypressHandler()">
+
+    <h4>Keyup</h4>
+    <input type="text" onkeyup="KeyupHandler()">
+
+    <h4>Mouse Down</h4>
+    <input type="text" onmousedown="MouseDownHandler()">
+
+    <h4>Mouse Move</h4>
+    <input type="text" onmousemove="MouseMoveHandler()">
+
+    <h4>Mouse Out</h4>
+    <input type="text" onmouseout="MouseOutHandler()">
+
+    <h4>Mouse Over</h4>
+    <input type="text" onmouseover="MouseOverHandler()">
+
+    <h4>Mouse Up</h4>
+    <input type="text" onmouseup="MouseUpHandler()">
+
+
+    <p><br> <strong>Instruction:</strong> Create a function that is named alertMe and has 1 parameter <br>
+         named message. Inside the function, call the alert message dialog box to display the value <br> 
+         of the message parameter.</p>
+
+    <strong>*** Alert message will appear when the site is loaded or refreshed ***</strong> 
+    
+
+    <p><br> <strong>Instruction:</strong> Create a function named sayGreetings(). Inside the function is a <br>
+         prompt dialog box that gets the user input labeled "What is your name?". The user input will be <br> 
+         displayed in an alert message dialog box that says "Greetings [User Name]!". Then create a button labeled <br>
+          as "Greet me" that has the onclick javascript event that calls the function sayGreetings().</p>
+
+          <button onclick="sayGreetings()">Greet me</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
